@@ -1,0 +1,31 @@
+.projects-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+}
+
+.project-pic {
+  max-width: 70%;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-btn {
+  background-color: #FDFFFC;
+  width: 100px;
+}
+
+.project-btn + .project-btn{
+margin-left: 1em;
+}
+
+.project-btn-link, .project-btn-link:visited {
+  color: #04080F;
+}

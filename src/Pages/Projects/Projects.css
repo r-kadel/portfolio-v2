@@ -7,8 +7,17 @@
   max-width: 1100px;
 }
 
+.project-pic-link {
+  width: fit-content;
+}
+
 .project-pic {
-  max-width: 80%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.project-pic:hover {
+  border: 2px solid #F71735;
 }
 
 .project-container {
@@ -30,6 +39,14 @@
   font-weight: bold;
 }
 
+.project-p {
+  font-size: .8rem;
+}
+
+#partner-name:hover {
+  color: #F71735;
+}
+
 .project-btn:hover {
   background-color: #F71735;
 }
@@ -42,9 +59,23 @@ margin-left: 1em;
   color: #04080F;
 }
 
+.tech-list {
+  font-size: .8rem;
+}
+
+.google-list {
+  padding-left: 20px;
+}
+
 @media screen and (min-width: 500px) {
   .project-btn {
     width: 125px;
+    font-size: 1rem;
+  }
+  .project-p {
+    font-size: 1rem;
+  }
+  .tech-list {
     font-size: 1rem;
   }
 }

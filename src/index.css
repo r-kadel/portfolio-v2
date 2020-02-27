@@ -3,10 +3,16 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-size: 1.115rem;
+  font-size: 1rem;
 }
 
 a, a:visited {
   color: #FDFFFC;
   text-decoration: none;
+}
+
+@media screen and (min-width: 500px) {
+  html, body {
+    font-size: 1.115rem;
+  }
 }

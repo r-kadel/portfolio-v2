@@ -8,7 +8,7 @@
 
 .selfie {
   max-width: 80%;
-  max-height: 300px;
+  max-height: 200px;
 }
 
 .landing-ul {
@@ -23,4 +23,11 @@
   display: inline;
   font-size: 1.5rem;
   text-decoration: none;
+}
+
+@media screen and (min-width: 500px) {
+  .selfie {
+    max-width: 80%;
+    max-height: 300px;
+  }
 }

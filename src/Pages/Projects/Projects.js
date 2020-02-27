@@ -2,56 +2,39 @@ import React from 'react';
 import './Projects.css';
 import quizpic from '../../assets/quizpic.png';
 import searchstream from '../../assets/searchstream_search.png';
+import fixit from '../../assets/Fixit.png';
 
 function Projects() {
   return (
     <main className="content">
       <div className="projects-box">
         <section className="project-container">
-          <h3>The Health Quiz App</h3>
-          <img
-            className="project-pic"
-            src={quizpic}
-            alt="Quiz App landing page"
-          />
-          <p>
-            This is a simple quiz web application showcasing HTML CSS Javascript
-            and in particular Jquery.
-          </p>
-          <p>
-            It was my first from-scratch project in Thinkful's Software
-            Engineering program and prompts the user with a series of questions
-            and gives feedback from each one. At the conclusion of the quiz the
-            user is shown their score and asked if they would like to play
-            again. It's good for anyone looking for a basic biology refresher.
-          </p>
-          <div className="button-box">
-            <button className="project-btn">
-              <a className="project-btn-link"
-                href="https://github.com/r-kadel/Quiz-App"
-                target="_blank"
-                rel="noopener noreferrer">
-                Github Repo
-              </a>
-            </button>
-            <button className="project-btn">
-              <a className="project-btn-link"
-                href="https://r-kadel.github.io/Quiz-App"
-                target="_blank"
-                rel="noopener noreferrer">
-                Demo
-              </a>
-            </button>
-          </div>
-        </section>
-
-        <div className="project-container">
           <h3>SearchStream</h3>
           <img
             className="project-pic"
             src={searchstream}
             alt="search stream search results"
           />
+          <div className="button-box">
+            <button className="project-btn">
+              <a
+                className="project-btn-link"
+                href="https://github.com/r-kadel/searchstream"
+                target="_blank"
+                rel="noopener noreferrer">
+                Repo
+              </a>
+            </button>
+            <button className="project-btn">
+              <a
+                className="project-btn-link"
+                href="https://searchstream.r-kadel.now.sh/"
+                target="_blank"
+                rel="noopener noreferrer">
+                Demo
+              </a>
+            </button>
+          </div>
           <p>
             Tired of searching through hundreds of videos through your tens of
             video streaming services? SearchStream was designed for you to
@@ -71,26 +54,124 @@ function Projects() {
             validated by the server a JWT token is sent to the client allowing
             them to access the main app and the search endpoint.
           </p>
-          <section className="button-box">
-            <button className="project-btn">
-              <a className="project-btn-link"
-                href="https://github.com/r-kadel/searchstream"
-                target="_blank"
-                rel="noopener noreferrer">
-                Github Repo
-              </a>
-            </button>
+        </section>
+
+        <hr className="project-hr" />
+
+        <section className="project-container">
+          <h3>FixIt</h3>
+          <img
+            className="project-pic"
+            src={fixit}
+            alt="Fixit App landing page"
+          />
+          <div className="button-box">
             <button className="project-btn">
               <a
                 className="project-btn-link"
-                href="https://searchstream.r-kadel.now.sh/"
+                href="https://github.com/brittanyweickert/fixit"
+                target="_blank"
+                rel="noopener noreferrer">
+                Repo
+              </a>
+            </button>
+
+            <button className="project-btn">
+              <a
+                className="project-btn-link"
+                href="https://brittanyweickert.github.io/fixit"
                 target="_blank"
                 rel="noopener noreferrer">
                 Demo
               </a>
             </button>
-          </section>
-        </div>
+          </div>
+          <p>
+            This is the API Hack capstone project for Thinkul's Nights and
+            Weekends software engineering course. For this project I worked with
+            an excellent partner:{' '}
+            <a
+              href="https://github.com/brittanyweickert/"
+              target="_blank"
+              rel="noopener noreferrer">
+              <span id="partner-name">
+                <i className="fab fa-github"></i> Brittany Weickert
+              </span>
+            </a>
+          </p>
+          <p>
+            The App is designed with people who have recently damaged their
+            smartphones in mind. The user enters the smartphone model and zip
+            code and they are shown a list of youtube videos that demonstrate
+            the repair for the DIY'er as well as a map of their area with
+            markers and list for local repair shops If they are less bold.
+          </p>
+          <ul className="tech-list">
+            <li>This app uses the youtube API to display the videos</li>
+            <li>
+              {' '}
+              Google Cloud Platform -
+              <ul>
+                <li>
+                  Geocode API to turn their zip code into usable lat and long
+                  numbers
+                </li>
+                <li>
+                  Google's Javascript Maps API to display the results as markers
+                  on a map of their area
+                </li>
+              </ul>
+            </li>
+            <li>
+              The lists of shops are populated using Foursquare's search API
+            </li>
+            <li>
+              The app also features ample HTML, CSS, Javascript and jQuery
+            </li>
+          </ul>
+        </section>
+
+        <hr className="project-hr" />
+
+        <section className="project-container">
+          <h3>The Health Quiz App</h3>
+          <img
+            className="project-pic"
+            src={quizpic}
+            alt="Quiz App landing page"
+          />
+          <div className="button-box">
+            <button className="project-btn">
+              <a
+                className="project-btn-link"
+                href="https://github.com/r-kadel/Quiz-App"
+                target="_blank"
+                rel="noopener noreferrer">
+                Repo
+              </a>
+            </button>
+            <button className="project-btn">
+              <a
+                className="project-btn-link"
+                href="https://r-kadel.github.io/Quiz-App"
+                target="_blank"
+                rel="noopener noreferrer">
+                Demo
+              </a>
+            </button>
+          </div>
+          <p>
+            This is a simple quiz web application showcasing HTML CSS Javascript
+            and in particular Jquery.
+          </p>
+          <p>
+            It was my first from-scratch project in Thinkful's Software
+            Engineering program and prompts the user with a series of questions
+            and gives feedback from each one. At the conclusion of the quiz the
+            user is shown their score and asked if they would like to play
+            again. It's good for anyone looking for a basic biology refresher.
+          </p>
+        </section>
       </div>
     </main>
   );

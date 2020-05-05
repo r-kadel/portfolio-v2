@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 import React from 'react';
 import './Projects.css';
 import quizpic from '../../assets/quizpic.png';
 import searchstream from '../../assets/searchstream_search.png';
 import fixit from '../../assets/Fixit.png';
 import metalspace from '../../assets/home.png';
+=======
+import React from "react"
+import "./Projects.css"
+import quizpic from "../../assets/quizpic.png"
+import searchstream from "../../assets/searchstream_search.png"
+import fixit from "../../assets/Fixit.png"
+>>>>>>> 93da41962a90def799034777b50fde17a3701ef9
 
 function Projects() {
   return (
@@ -53,18 +61,26 @@ function Projects() {
         </section>
         <section className="project-container">
           <h3>SearchStream</h3>
-          <img
-            className="project-pic"
-            src={searchstream}
-            alt="search stream search results"
-          />
+          <a
+            className="project-pic-link"
+            href="https://searchstream.r-kadel.now.sh/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="project-pic"
+              src={searchstream}
+              alt="search stream search results"
+            />
+          </a>
           <div className="button-box">
             <button className="project-btn">
               <a
                 className="project-btn-link"
                 href="https://github.com/r-kadel/searchstream"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 Repo
               </a>
             </button>
@@ -73,18 +89,19 @@ function Projects() {
                 className="project-btn-link"
                 href="https://searchstream.now.sh/"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 Demo
               </a>
             </button>
           </div>
-          <p>
+          <p className="project-p">
             Tired of searching through hundreds of videos through your tens of
             video streaming services? SearchStream was designed for you to
             quickly locate the content you want, without all the clutter and
             wasted time in a traditional google search.
           </p>
-          <p>
+          <p className="project-p">
             This is a full stack web application deployed with Zeit that uses
             React and custom vanilla CSS on the front end to deliver a fast and
             accessible user experience. On the back end Node.js using an express
@@ -103,18 +120,26 @@ function Projects() {
 
         <section className="project-container">
           <h3>FixIt</h3>
-          <img
-            className="project-pic"
-            src={fixit}
-            alt="Fixit App landing page"
-          />
+          <a
+            className="project-pic-link"
+            href="https://brittanyweickert.github.io/fixit"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="project-pic"
+              src={fixit}
+              alt="Fixit App landing page"
+            />
+          </a>
           <div className="button-box">
             <button className="project-btn">
               <a
                 className="project-btn-link"
                 href="https://github.com/brittanyweickert/fixit"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 Repo
               </a>
             </button>
@@ -124,25 +149,27 @@ function Projects() {
                 className="project-btn-link"
                 href="https://brittanyweickert.github.io/fixit"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 Demo
               </a>
             </button>
           </div>
-          <p>
+          <p className="project-p"> 
             This is the API Hack capstone project for Thinkul's Nights and
             Weekends software engineering course. For this project I worked with
-            an excellent partner:{' '}
+            an excellent partner:{" "}
             <a
               href="https://github.com/brittanyweickert/"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               <span id="partner-name">
                 <i className="fab fa-github"></i> Brittany Weickert
               </span>
             </a>
           </p>
-          <p>
+          <p className="project-p">
             The App is designed with people who have recently damaged their
             smartphones in mind. The user enters the smartphone model and zip
             code and they are shown a list of youtube videos that demonstrate
@@ -152,9 +179,9 @@ function Projects() {
           <ul className="tech-list">
             <li>This app uses the youtube API to display the videos</li>
             <li>
-              {' '}
+              {" "}
               Google Cloud Platform -
-              <ul>
+              <ul className="google-list">
                 <li>
                   Geocode API to turn their zip code into usable lat and long
                   numbers
@@ -178,18 +205,26 @@ function Projects() {
 
         <section className="project-container">
           <h3>The Health Quiz App</h3>
-          <img
-            className="project-pic"
-            src={quizpic}
-            alt="Quiz App landing page"
-          />
+          <a
+            className="project-pic-link"
+            href="https://r-kadel.github.io/Quiz-App"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="project-pic"
+              src={quizpic}
+              alt="Quiz App landing page"
+            />
+          </a>
           <div className="button-box">
             <button className="project-btn">
               <a
                 className="project-btn-link"
                 href="https://github.com/r-kadel/Quiz-App"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 Repo
               </a>
             </button>
@@ -198,16 +233,17 @@ function Projects() {
                 className="project-btn-link"
                 href="https://r-kadel.github.io/Quiz-App"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 Demo
               </a>
             </button>
           </div>
-          <p>
+          <p className="project-p">
             This is a simple quiz web application showcasing HTML CSS Javascript
             and in particular Jquery.
           </p>
-          <p>
+          <p className="project-p">
             It was my first from-scratch project in Thinkful's Software
             Engineering program and prompts the user with a series of questions
             and gives feedback from each one. At the conclusion of the quiz the
@@ -217,7 +253,7 @@ function Projects() {
         </section>
       </div>
     </main>
-  );
+  )
 }
 
-export default Projects;
+export default Projects

@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-size: 1.115rem;
+  font-size: 1rem;
 }
 
 a, a:visited {
@@ -11,3 +11,11 @@ a, a:visited {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
+@media screen and (min-width: 500px) {
+  html, body {
+    font-size: 1.115rem;
+  }
+}
+>>>>>>> 93da41962a90def799034777b50fde17a3701ef9

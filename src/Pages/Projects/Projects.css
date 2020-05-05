@@ -8,8 +8,17 @@
   margin: 0 auto;
 }
 
+.project-pic-link {
+  width: fit-content;
+}
+
 .project-pic {
-  max-width: 80%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.project-pic:hover {
+  border: 2px solid #F71735;
 }
 
 .project-container {
@@ -17,6 +26,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.project-hr {
+  width: 100%;
 }
 
 .button-box {
@@ -33,6 +46,14 @@
   padding: .5em;
 }
 
+.project-p {
+  font-size: .8rem;
+}
+
+#partner-name:hover {
+  color: #F71735;
+}
+
 .project-btn:hover {
   opacity: .5;
 }
@@ -45,9 +66,23 @@ margin-left: 1em;
   color: #04080F;
 }
 
+.tech-list {
+  font-size: .8rem;
+}
+
+.google-list {
+  padding-left: 20px;
+}
+
 @media screen and (min-width: 500px) {
   .project-btn {
     width: 125px;
+    font-size: 1rem;
+  }
+  .project-p {
+    font-size: 1rem;
+  }
+  .tech-list {
     font-size: 1rem;
   }
 }

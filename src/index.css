@@ -11,11 +11,8 @@ a, a:visited {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-=======
 @media screen and (min-width: 500px) {
   html, body {
-    font-size: 1.115rem;
+    font-size: 1.125rem;
   }
 }
->>>>>>> 93da41962a90def799034777b50fde17a3701ef9

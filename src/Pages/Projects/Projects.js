@@ -1,17 +1,9 @@
-<<<<<<< HEAD
 import React from 'react';
 import './Projects.css';
 import quizpic from '../../assets/quizpic.png';
 import searchstream from '../../assets/searchstream_search.png';
 import fixit from '../../assets/Fixit.png';
 import metalspace from '../../assets/home.png';
-=======
-import React from "react"
-import "./Projects.css"
-import quizpic from "../../assets/quizpic.png"
-import searchstream from "../../assets/searchstream_search.png"
-import fixit from "../../assets/Fixit.png"
->>>>>>> 93da41962a90def799034777b50fde17a3701ef9
 
 function Projects() {
   return (

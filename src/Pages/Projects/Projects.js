@@ -15,9 +15,12 @@ function Projects() {
             className="project-pic-link"
             href="https://metalspace.now.sh/"
             target="_blank"
-            rel="noopener noreferrer"
-          >
-          <img className="project-pic" src={metalspace} alt="metalspace home" />
+            rel="noopener noreferrer">
+            <img
+              className="project-pic"
+              src={metalspace}
+              alt="metalspace home"
+            />
           </a>
           <div className="button-box">
             <button className="project-btn">
@@ -45,14 +48,14 @@ function Projects() {
             complain about music in general (especially metal).
           </p>
           <p>
-            This is a full stack web application deployed with Zeit/now/Vercel that uses
-            React and custom vanilla CSS on the front end to deliver a fast and
-            accessible user experience. On the back end Node.js using an express
-            server handle the routing and API and a postgresql database stores
-            the users data, the posts, and comments. JWT is used to authenticate
-            and validate users to ensure the security of our users personal
-            information. The API is powered by Heroku and handles the the
-            various post, get, patch and delete requests in addidtion to
+            This is a full stack web application deployed with Zeit/now/Vercel
+            that uses React and custom vanilla CSS on the front end to deliver a
+            fast and accessible user experience. On the back end Node.js using
+            an express server handle the routing and API and a postgresql
+            database stores the users data, the posts, and comments. JWT is used
+            to authenticate and validate users to ensure the security of our
+            users personal information. The API is powered by Heroku and handles
+            the the various post, get, patch and delete requests in addidtion to
             authenticating users and assisting the front end in validating
             requests. The Heroku postgres database stores all of the users data,
             posts and comments.
@@ -64,8 +67,7 @@ function Projects() {
             className="project-pic-link"
             href="https://searchstream.now.sh/"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             <img
               className="project-pic"
               src={searchstream}
@@ -78,8 +80,7 @@ function Projects() {
                 className="project-btn-link"
                 href="https://github.com/r-kadel/searchstream"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 Repo
               </a>
             </button>
@@ -88,8 +89,7 @@ function Projects() {
                 className="project-btn-link"
                 href="https://searchstream.now.sh/"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 Demo
               </a>
             </button>
@@ -123,8 +123,7 @@ function Projects() {
             className="project-pic-link"
             href="https://brittanyweickert.github.io/fixit"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             <img
               className="project-pic"
               src={fixit}
@@ -137,8 +136,7 @@ function Projects() {
                 className="project-btn-link"
                 href="https://github.com/brittanyweickert/fixit"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 Repo
               </a>
             </button>
@@ -148,21 +146,19 @@ function Projects() {
                 className="project-btn-link"
                 href="https://brittanyweickert.github.io/fixit"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 Demo
               </a>
             </button>
           </div>
-          <p className="project-p"> 
+          <p className="project-p">
             This is the API Hack capstone project for Thinkul's Nights and
             Weekends software engineering course. For this project I worked with
-            an excellent partner:{" "}
+            an excellent partner:{' '}
             <a
               href="https://github.com/brittanyweickert/"
               target="_blank"
-              rel="noopener noreferrer"
-            >
+              rel="noopener noreferrer">
               <span id="partner-name">
                 <i className="fab fa-github"></i> Brittany Weickert
               </span>
@@ -178,7 +174,7 @@ function Projects() {
           <ul className="tech-list">
             <li>This app uses the youtube API to display the videos</li>
             <li>
-              {" "}
+              {' '}
               Google Cloud Platform -
               <ul className="google-list">
                 <li>
@@ -208,8 +204,7 @@ function Projects() {
             className="project-pic-link"
             href="https://r-kadel.github.io/Quiz-App"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             <img
               className="project-pic"
               src={quizpic}
@@ -222,8 +217,7 @@ function Projects() {
                 className="project-btn-link"
                 href="https://github.com/r-kadel/Quiz-App"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 Repo
               </a>
             </button>
@@ -232,8 +226,7 @@ function Projects() {
                 className="project-btn-link"
                 href="https://r-kadel.github.io/Quiz-App"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 Demo
               </a>
             </button>
@@ -252,7 +245,7 @@ function Projects() {
         </section>
       </div>
     </main>
-  )
+  );
 }
 
-export default Projects
+export default Projects;

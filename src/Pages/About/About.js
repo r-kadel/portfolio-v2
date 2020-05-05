@@ -17,7 +17,8 @@ function About() {
           my passion for programming to excel in the modern team based
           development environment. I am a lifetime gamer and tech enthusiast,
           with leadership and team work skills learned from years of experience
-          in retail management, and a former High Warlord in World of Warcraft.
+          in retail management, and of course, as a High Warlord in World of
+          Warcraft.
         </p>
         <h3>Specializing in:</h3>
         <ul className="tech-list">

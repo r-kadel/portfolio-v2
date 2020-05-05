@@ -1,5 +1,5 @@
 import React from 'react';
-import './Landing.css'
+import './Landing.css';
 import selfie1 from '../../assets/selfie1.jpg';
 
 function Landing() {

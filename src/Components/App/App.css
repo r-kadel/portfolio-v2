@@ -1,26 +1,26 @@
 .content {
   min-height: 100vh;
-  background-color: #04080F;
-  color: #FDFFFC;
+  background-color: #04080f;
+  color: #fdfffc;
   display: flex;
   flex-direction: column;
 }
 
 h3 {
-  color: #F8F32B;
-  font-family: "PT Serif";
-  letter-spacing: .1rem;
+  color: #f8f32b;
+  font-family: 'PT Serif';
+  letter-spacing: 0.1rem;
   font-size: 1.2rem;
 }
 
 h2 {
-  color: #F8F32B;
-  font-family: "PT Serif";
-  letter-spacing: .05rem;
+  color: #f8f32b;
+  font-family: 'PT Serif';
+  letter-spacing: 0.05rem;
 }
 
-p { 
+p {
   font-family: 'Roboto';
-  letter-spacing: .025rem;
+  letter-spacing: 0.025rem;
 }
 /* accents FF9F1C F71735 */

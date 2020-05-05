@@ -18,7 +18,7 @@
 }
 
 .project-pic:hover {
-  border: 2px solid #F71735;
+  border: 2px solid #f71735;
 }
 
 .project-container {
@@ -37,37 +37,38 @@
 }
 
 .project-btn {
-  background-color: #F8F32B;
+  background-color: #f8f32b;
   width: 100px;
   font-size: 1rem;
   border: none;
-  border-radius: .35em;
+  border-radius: 0.35em;
   font-weight: bold;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 .project-p {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 #partner-name:hover {
-  color: #F71735;
+  color: #f71735;
 }
 
 .project-btn:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
-.project-btn + .project-btn{
-margin-left: 1em;
+.project-btn + .project-btn {
+  margin-left: 1em;
 }
 
-.project-btn-link, .project-btn-link:visited {
-  color: #04080F;
+.project-btn-link,
+.project-btn-link:visited {
+  color: #04080f;
 }
 
 .tech-list {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .google-list {

@@ -11,7 +11,14 @@ function Projects() {
       <div className="projects-box">
         <section className="project-container">
           <h3>MetalSpace</h3>
+          <a
+            className="project-pic-link"
+            href="https://metalspace.now.sh/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
           <img className="project-pic" src={metalspace} alt="metalspace home" />
+          </a>
           <div className="button-box">
             <button className="project-btn">
               <a
@@ -55,7 +62,7 @@ function Projects() {
           <h3>SearchStream</h3>
           <a
             className="project-pic-link"
-            href="https://searchstream.r-kadel.now.sh/"
+            href="https://searchstream.now.sh/"
             target="_blank"
             rel="noopener noreferrer"
           >

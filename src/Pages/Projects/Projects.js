@@ -3,11 +3,54 @@ import './Projects.css';
 import quizpic from '../../assets/quizpic.png';
 import searchstream from '../../assets/searchstream_search.png';
 import fixit from '../../assets/Fixit.png';
+import metalspace from '../../assets/home.png';
 
 function Projects() {
   return (
     <main className="content">
       <div className="projects-box">
+        <section className="project-container">
+          <h3>MetalSpace</h3>
+          <img className="project-pic" src={metalspace} alt="metalspace home" />
+          <div className="button-box">
+            <button className="project-btn">
+              <a
+                className="project-btn-link"
+                href="https://github.com/r-kadel/metalspace"
+                target="_blank"
+                rel="noopener noreferrer">
+                Repo
+              </a>
+            </button>
+            <button className="project-btn">
+              <a
+                className="project-btn-link"
+                href="https://metalspace.now.sh/"
+                target="_blank"
+                rel="noopener noreferrer">
+                Demo
+              </a>
+            </button>
+          </div>
+          <p>
+            MetalSpace is a social media application for metal heads to engage
+            with each other, talk about the bands they like, share opinions and
+            complain about music in general (especially metal).
+          </p>
+          <p>
+            This is a full stack web application deployed with Zeit/now/Vercel that uses
+            React and custom vanilla CSS on the front end to deliver a fast and
+            accessible user experience. On the back end Node.js using an express
+            server handle the routing and API and a postgresql database stores
+            the users data, the posts, and comments. JWT is used to authenticate
+            and validate users to ensure the security of our users personal
+            information. The API is powered by Heroku and handles the the
+            various post, get, patch and delete requests in addidtion to
+            authenticating users and assisting the front end in validating
+            requests. The Heroku postgres database stores all of the users data,
+            posts and comments.
+          </p>
+        </section>
         <section className="project-container">
           <h3>SearchStream</h3>
           <img
@@ -28,7 +71,7 @@ function Projects() {
             <button className="project-btn">
               <a
                 className="project-btn-link"
-                href="https://searchstream.r-kadel.now.sh/"
+                href="https://searchstream.now.sh/"
                 target="_blank"
                 rel="noopener noreferrer">
                 Demo

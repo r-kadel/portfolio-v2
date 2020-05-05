@@ -5,6 +5,7 @@
   justify-content: center;
   padding: 3em;
   max-width: 1100px;
+  margin: 0 auto;
 }
 
 .project-pic {
@@ -23,15 +24,17 @@
 }
 
 .project-btn {
-  background-color: #FDFFFC;
+  background-color: #F8F32B;
   width: 100px;
   font-size: 1rem;
+  border: none;
   border-radius: .35em;
   font-weight: bold;
+  padding: .5em;
 }
 
 .project-btn:hover {
-  background-color: #F71735;
+  opacity: .5;
 }
 
 .project-btn + .project-btn{

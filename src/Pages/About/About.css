@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   padding: 3em;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .tech-list {

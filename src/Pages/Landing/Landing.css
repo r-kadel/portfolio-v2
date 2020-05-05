@@ -4,14 +4,17 @@
   align-items: center;
   justify-content: center;
   padding: 3em;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .selfie {
-  max-width: 80%;
+  max-width: 300px;
   max-height: 200px;
 }
 
 .landing-ul {
+  margin-top: 2em;
   padding-left: 0;
   list-style-type: none;
   display: flex;
@@ -27,7 +30,7 @@
 
 @media screen and (min-width: 500px) {
   .selfie {
-    max-width: 80%;
+    max-width: 300px;
     max-height: 300px;
   }
 }

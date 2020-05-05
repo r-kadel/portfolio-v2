@@ -1,6 +1,6 @@
 .navbar {
-  position: fixed;
-  top:0;
+  /* position: fixed; */
+  /* top:0; */
   margin-top: 0;
   height: 3.25em;
   width: 100%;
@@ -16,9 +16,16 @@
 
 .nav-li {
   display: inline;
-  padding-right: 2em;
+  padding-right: .8em;
 }
 
 .nav-li > a:hover {
-  color: #F71735;;
+  color: #F71735;
+  border-bottom: 1px solid #F71735;
+}
+
+@media screen and (min-width: 400px) {
+  .nav-li {
+    padding-right: 2em;
+  }
 }

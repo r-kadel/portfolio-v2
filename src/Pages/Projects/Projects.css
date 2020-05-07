@@ -34,6 +34,9 @@
 
 .button-box {
   margin-top: 1em;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .project-btn {
@@ -58,8 +61,9 @@
   opacity: 0.5;
 }
 
-.project-btn + .project-btn {
-  margin-left: 1em;
+.project-btn-link {
+  width:100px;
+  font-size: .9rem;
 }
 
 .project-btn-link,
@@ -78,6 +82,10 @@
 @media screen and (min-width: 500px) {
   .project-btn {
     width: 125px;
+    font-size: 1rem;
+  }
+  .project-btn-link {
+    width:125px;
     font-size: 1rem;
   }
   .project-p {

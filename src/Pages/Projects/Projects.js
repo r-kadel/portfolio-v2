@@ -23,24 +23,20 @@ function Projects() {
             />
           </a>
           <div className="button-box">
-            <button className="project-btn">
-              <a
-                className="project-btn-link"
-                href="https://github.com/r-kadel/metalspace"
-                target="_blank"
-                rel="noopener noreferrer">
-                Repo
-              </a>
-            </button>
-            <button className="project-btn">
-              <a
-                className="project-btn-link"
-                href="https://metalspace.now.sh/"
-                target="_blank"
-                rel="noopener noreferrer">
-                Demo
-              </a>
-            </button>
+            <a
+              className="project-btn-link"
+              href="https://github.com/r-kadel/metalspace"
+              target="_blank"
+              rel="noopener noreferrer">
+              <button className="project-btn">Repo</button>
+            </a>
+            <a
+              className="project-btn-link"
+              href="https://metalspace.now.sh/"
+              target="_blank"
+              rel="noopener noreferrer">
+              <button className="project-btn">Demo</button>
+            </a>
           </div>
           <p>
             MetalSpace is a social media application for metal heads to engage
@@ -61,6 +57,9 @@ function Projects() {
             posts and comments.
           </p>
         </section>
+
+        <hr className="project-hr" />
+
         <section className="project-container">
           <h3>SearchStream</h3>
           <a
@@ -75,24 +74,20 @@ function Projects() {
             />
           </a>
           <div className="button-box">
-            <button className="project-btn">
-              <a
-                className="project-btn-link"
-                href="https://github.com/r-kadel/searchstream"
-                target="_blank"
-                rel="noopener noreferrer">
-                Repo
-              </a>
-            </button>
-            <button className="project-btn">
-              <a
-                className="project-btn-link"
-                href="https://searchstream.now.sh/"
-                target="_blank"
-                rel="noopener noreferrer">
-                Demo
-              </a>
-            </button>
+            <a
+              className="project-btn-link"
+              href="https://github.com/r-kadel/searchstream"
+              target="_blank"
+              rel="noopener noreferrer">
+              <button className="project-btn">Repo</button>
+            </a>
+            <a
+              className="project-btn-link"
+              href="https://searchstream.now.sh/"
+              target="_blank"
+              rel="noopener noreferrer">
+              <button className="project-btn">Demo</button>
+            </a>
           </div>
           <p className="project-p">
             Tired of searching through hundreds of videos through your tens of
@@ -131,25 +126,21 @@ function Projects() {
             />
           </a>
           <div className="button-box">
-            <button className="project-btn">
-              <a
-                className="project-btn-link"
-                href="https://github.com/brittanyweickert/fixit"
-                target="_blank"
-                rel="noopener noreferrer">
-                Repo
-              </a>
-            </button>
+            <a
+              className="project-btn-link"
+              href="https://github.com/brittanyweickert/fixit"
+              target="_blank"
+              rel="noopener noreferrer">
+              <button className="project-btn">Repo</button>
+            </a>
 
-            <button className="project-btn">
-              <a
-                className="project-btn-link"
-                href="https://brittanyweickert.github.io/fixit"
-                target="_blank"
-                rel="noopener noreferrer">
-                Demo
-              </a>
-            </button>
+            <a
+              className="project-btn-link"
+              href="https://brittanyweickert.github.io/fixit"
+              target="_blank"
+              rel="noopener noreferrer">
+              <button className="project-btn">Demo</button>
+            </a>
           </div>
           <p className="project-p">
             This is the API Hack capstone project for Thinkul's Nights and
@@ -212,24 +203,20 @@ function Projects() {
             />
           </a>
           <div className="button-box">
-            <button className="project-btn">
-              <a
-                className="project-btn-link"
-                href="https://github.com/r-kadel/Quiz-App"
-                target="_blank"
-                rel="noopener noreferrer">
-                Repo
-              </a>
-            </button>
-            <button className="project-btn">
-              <a
-                className="project-btn-link"
-                href="https://r-kadel.github.io/Quiz-App"
-                target="_blank"
-                rel="noopener noreferrer">
-                Demo
-              </a>
-            </button>
+            <a
+              className="project-btn-link"
+              href="https://github.com/r-kadel/Quiz-App"
+              target="_blank"
+              rel="noopener noreferrer">
+              <button className="project-btn">Repo</button>
+            </a>
+            <a
+              className="project-btn-link"
+              href="https://r-kadel.github.io/Quiz-App"
+              target="_blank"
+              rel="noopener noreferrer">
+              <button className="project-btn">Demo</button>
+            </a>
           </div>
           <p className="project-p">
             This is a simple quiz web application showcasing HTML CSS Javascript

@@ -11,7 +11,7 @@ function About() {
           Hello, I am Ryan, a recent graduate of the Thinkful Software
           Engineering course. I've been interested in computers since I was very
           young and first got my hands on a "Macintosh II" in a computers summer
-          camp, because I was the kid hat wanted to go to computer camp. After
+          camp, because I was the kid that wanted to go to computer camp. After
           over a decade in retail and retail management I'm finally doing
           something that I really enjoy and hope to combine my experience with
           my passion for programming to excel in the modern team based
